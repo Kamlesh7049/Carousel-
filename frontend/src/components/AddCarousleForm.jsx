@@ -45,7 +45,7 @@ const AddCarouselForm = ({ refreshCarousel }) => {
       );
       alert("✅ Carousel Item Added Successfully!");
       setFormData({
-      
+        bankName: "",
         offerTitle: "",
         shortDescription: "",
         discountProcessingFee: "",
